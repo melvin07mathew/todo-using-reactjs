@@ -1,10 +1,13 @@
-import Todo from "./Todo";
+import Addtodo from "./Addtodo";
+import Header from "./Header";
+// import Todo from "./Todo";
 
 
 function App() {
   return (
     <div className="App" style={{height:"100vh"}}>
-      <Todo></Todo>
+      <Header/>
+      <Addtodo/>
     </div>
   );
 }
